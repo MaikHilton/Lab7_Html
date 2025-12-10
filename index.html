@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Лабораторна робота №7 - ES6+ Блог</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Мій IT Блог</h1>
+  </header>
+
+  <div class="toolbar" id="toolbar">
+    <button class="btn" id="btnAll" aria-pressed="true">Усі</button>
+    <span style="margin-left:auto"></span>
+
+    <input id="searchTitle" class="input" type="search" placeholder="Знайти за назвою…" aria-label="Пошук статті за назвою">
+    <button class="btn" id="searchBtn">Знайти</button>
+  </div>
+
+  <p class="counter" id="counter" aria-live="polite"></p>
+
+  <main>
+    <section id="blog-posts"></section>
+  </main>
+
+  <script src="scripts/script.js" type="module"></script>
+</body>
+</html>
